@@ -1,7 +1,13 @@
-import React from 'react';
+import * as React from 'react';
+import NavBar from '../components/NavBar';
 
 function PageHome() {
-  return (<p>Pagina inicial</p>);
+  return (
+    <>
+      <NavBar />
+      <p>Page home</p>
+    </>
+  );
 }
 
 export default PageHome;

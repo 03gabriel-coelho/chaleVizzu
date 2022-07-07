@@ -26,7 +26,7 @@ function NavBar() {
   };
 
   return (
-    <AppBar position="static" style={{ backgroundColor: '#79554B' }}>
+    <AppBar position="fixed" style={{ backgroundColor: '#79554B', float: 'inline-start' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography

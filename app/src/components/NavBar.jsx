@@ -12,7 +12,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Logo from '../images/logo.svg';
 
 const pages = ['Sobre', 'Fotos', 'Contato'];
-const routes = ['/about', '/pics', '/contact'];
+const routes = ['/', '/pics', '/contact'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -44,7 +44,7 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            <img src={Logo} alt="logo" height="80px" style={{ marginRight: '250px' }} />
+            <img src={Logo} alt="logo" height="80px" style={{ marginRight: '350px' }} />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

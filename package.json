@@ -1,6 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
+  "homepage": "https://03gabriel-coelho.github.io/chaleVizzu/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
